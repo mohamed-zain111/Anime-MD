@@ -1,0 +1,1417 @@
+/* Global  */
+
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --Yellow-color: #ffc400;
+    --red-color: #ff3150;
+
+    --main-color: #181d2b;
+    --body-color: #131722;
+    --btn-color: #029dbc;
+     }
+
+* {
+     font-family: 'Cairo', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.body-md {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--body-color); 
+ 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: #131722;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(to top, #c72092 , #6c14d0);
+}
+
+ul {
+     list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: var(--green-color);
+}
+
+#preloader {
+    background: #000 url(../img/loading/the-thinker-thinking2.gif) no-repeat  center center ; 
+   background-size: 15%;
+    height: 100ch;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    
+  }
+
+/* Star nav bar */
+
+   .navbar {
+    background-color: var(--main-color);
+}
+   
+
+.navbar .navbar-nav .nav-link {
+   color: white;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+   color: var(--green-color);
+}
+
+.search {
+   border-left: 1px solid var(--green-color);
+}
+
+.search i {
+    color: var(--green-color);
+} 
+
+.navbar .navbar-toggler {
+   color: white;
+   font-size: 25px;
+   border-color: white;
+}
+
+.navbar .navbar-toggler:focus {
+   box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="truo"] {
+border-color: var(--green-color);
+}
+
+.navbar-brand h2 {
+    color: white;
+}
+
+.search .fa-solid  {
+    margin: 0 5px;
+}
+
+
+/* |    Home    | */
+
+.home {
+    background-color: var(--body-color);
+    background-image: url(../img/wallpaperflare.com_wallpaper\ \(5\).jpg);
+    width: 100%;
+    height: calc(100vh - 72px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: home;
+    animation-delay: 4s;        /* المهلة قبل التنفيز */
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+/* ======================|    anime-1    |====================== */
+
+.anime-1 {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.anime-1 .contener {
+    margin-top: 50px;
+}
+
+.titol h1 {
+    color: var(--green-color);
+    text-align: center;
+    text-decoration: none;  
+}
+
+.box-anime {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cart-anime1-1 {
+    background-image: url(../img-Anime/anime-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.cart-anime1-2 {
+    background-image: url(../img-Anime/anem-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.cart-anime1-3 {
+    background-image: url(../img-Anime/anem-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.cart-anime1-4 {
+    background-image: url(../img-Anime/anem-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.cart-anime1-5 {
+    background-image: url(../img-Anime/anem-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.small_card {
+    color: #33d1cc;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    margin: 10px 0;
+    transform: translateX(-20px);
+    transition: 0.3s;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.small_card i {
+    background-image: linear-gradient(45deg,#43cea2,#185a9d);
+    border-radius: 5px;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 2px 0;
+    line-height: 40px;
+    transition: 0.4s;
+}
+
+.cart-anime1-1:hover .small_card{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.small_card i:hover {
+    color: #33d1cc;
+}
+
+.cart-anime1-2:hover .small_card{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime1-3:hover .small_card{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime1-4:hover .small_card{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime1-5:hover .small_card{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+/* ======================|    anime-2    |====================== */
+
+.anime-2 .contener {
+    margin-top: 50px;
+}
+
+.anime-2 .titol h1 {
+    color: var(--green-color);
+    text-align: center;
+    text-decoration: none;  
+    padding: 70px 0 0 0;
+
+}
+
+.box-anime-2 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.ani-2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cart-anime2-2 {
+    background-image: url(../Aot/aot--1.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.small_card-2 {
+    color: #33d1cc;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    margin: 10px 0;
+    transform: translateX(-20px);
+    transition: 0.3s;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.small_card-2 i {
+    background-color: #19283f;
+    border-radius: 5px;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 2px 0;
+    line-height: 40px;
+    transition: 0.4s;
+}
+
+.cart-anime2-2:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.small_card i:hover {
+    color: #33d1cc;
+}
+
+.cart-anime2-2:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime2-2:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime2-2:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime2-2:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime3-3 {
+    background-image: url(../Aot/aot--2.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.cart-anime3-3:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime3-3:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime3-3:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime3-3:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime3-3:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+} 
+
+.cart-anime4-4{
+    background-image: url(../Aot/aot--3.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.cart-anime4-4:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime4-4:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime4-4:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime4-4:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime4-4:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+} 
+
+.cart-anime5-5{
+    background-image: url(../Aot/aot--33.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.cart-anime5-5:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime5-5:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime5-5:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime5-5:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime5-5:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+} 
+
+.cart-anime6-6{
+    background-image: url(../Aot/aot--4.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.cart-anime6-6:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime6-6:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime6-6:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime6-6:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime6-6:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+} 
+
+
+.cart-anime2-2:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime2-2 i:hover {
+    color: #33d1cc;
+}
+
+.cart-anime2-2:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime2-2:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime2-2:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime2-2:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+
+.cart-anime3-3:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime3-3 i:hover {
+    color: #33d1cc;
+}
+
+.cart-anime3-3:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime3-3:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime3-3:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime3-3:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime4-4:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime4-4 i:hover {
+    color: #33d1cc;
+}
+
+.cart-anime4-4:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime4-4:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime4-4:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime4-4:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+
+.cart-anime5-5:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime5-5 i:hover {
+    color: #33d1cc;
+}
+
+.cart-anime5-5:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime5-5:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime5-5:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime5-5:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime6-6:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime6-6 i:hover {
+    color: #33d1cc;
+}
+
+.cart-anime6-6:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime6-6:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime6-6:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.cart-anime6-6:hover .small_card-2{
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+/* <||> */
+
+.ane-2 {
+    background-image: url(../JOJO/jojo--1.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane-3 {
+    background-image: url(../JOJO/jojo--2.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane-4 {
+    background-image: url(../JOJO/jojo--3.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+.ane-5 {
+    background-image: url(../JOJO/jojo--4.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane-6 {
+    background-image: url(../JOJO/jojo--6.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+/* <||> */
+
+.ane3-2 {
+    background-image: url(../Naruto/nuruto--1.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane3-3 {
+    background-image: url(../Naruto/nuruto--2.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane3-4 {
+    background-image: url(../Naruto/nuruto--3.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+.ane3-5 {
+    background-image: url(../Naruto/nuruto--4.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+.ane3-6 {
+    background-image: url(../Naruto/nuruto--5.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.small_card-2 i {
+    background-image: linear-gradient(45deg,#43cea2,#185a9d);
+}
+
+/* <||> */
+
+.ane4-2 {
+    background-image: url(../one/one--1.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane4-3 {
+    background-image: url(../one/one--2.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane4-4 {
+    background-image: url(../one/one--3.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane4-5 {
+    background-image: url(../one/one--4.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane4-6 {
+    background-image: url(../img-anime-2/one\ 1.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+/* <||> */
+
+.ane5-2 {
+    background-image: url(../Kim/kime--1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+.ane5-3 {
+    background-image: url(../Kim/kime--2.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+.ane5-4 {
+    background-image: url(../Kim/kime--3.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+.ane5-5 {
+    background-image: url(../Kim/kime--4.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+.ane5-6 {
+    background-image: url(../Kim/kime--5.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+/* <||> */
+
+
+.ane6-2 {
+    background-image: url(../Deko/buko--1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+.ane6-3 {
+    background-image: url(../Deko/buko--2.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+.ane6-4 {
+    background-image: url(../Deko/buko--3.jpeg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+
+.ane6-5 {
+    background-image: url(../Deko/buko--4.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+
+.ane6-6 {
+    background-image: url(../Deko/buko--5.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+/* <||> */
+
+
+.ane7-2 {
+    background-image: url(../sland/slan--1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane7-3 {
+    background-image: url(../sland/slan--2.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+.ane7-4 {
+    background-image: url(../sland/slan--3.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+
+.ane7-5 {
+    background-image: url(../sland/slan--4.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+
+.ane7-6 {
+    background-image: url(../sland/slan--5.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+/* <||> */
+
+.ane8-2 {
+    background-image: url(../img-anime-2/wit-2.png );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane8-3 {
+    background-image: url(../img-anime-2/wit-1.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane8-4 {
+    background-image: url(../img-anime-2/wit-8.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane8-5 {
+    background-image: url(../img-anime-2/wit-3.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+.ane8-6 {
+    background-image: url(../img-anime-2/wit-4.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 210px;
+    height: 320px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/15);
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+/* <| Footer |> */
+
+
+footer {
+    margin-top: 20px;
+    color: white;
+    background-color: #0a0d14;
+}
+
+.bern-footer {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.link-footer {   
+    font-size: 20px;
+}
+
+
+.link-footer i {
+    margin: 0 5px;
+    color: white;
+    transition: 0.4s;
+}  
+
+
+
+.text-footer a {
+    color: #009ec0;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.text-footer a:hover {
+    color: white;
+}
+
+.text-footer2 p {
+    color: #949cb0;
+}
+
+.fa-telegram-plane:hover {
+    color: #009ec0;
+}
+
+.fa-instagram:hover {
+    color: #c72092;
+}
+
+.fa-discord:hover {
+    color: var(--green-color);
+}
+
+.fa-youtube:hover {
+    color: #ff3150;
+}
+
+
+.fa-twitter:hover {
+    color: var(--green-color);
+}
+
+.fa-facebook-f:hover {
+    color: var(--btn-color);
+}
+
+.text-footer2 i {
+    border: 2px solid #009ec0;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+    background-image: linear-gradient(45deg,#43cea2,#185a9d);
+}
+
+/* <======| Media |======> */
+
+@media (max-width: 925px) {
+    /* | Footer | */
+
+    .text-footer2 p {
+        color: #949cb0;
+        font-size: 11px;
+    }
+
+    .link-footer {
+        font-size: 13px;
+    }
+
+    .text-footer {
+        font-size: 12px;
+        margin-top: 7px;
+    }
+
+}
+
+@media (max-width: 725px) {
+    /* | Footer | */
+
+    .text-footer2 p {
+        font-size: 9px;
+    }
+
+    .link-footer {
+        font-size: 10px;
+        display: none;
+    }
+
+}
+
+@media (max-width: 475px) {
+    /* | Footer | */
+
+    .bern-footer {
+    padding: 25px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+}
+
+@media (max-width: 400px) {
+
+    /* | Footer | */
+
+    .bern-footer {
+    padding: 25px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+}
